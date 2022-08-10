@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Button from '../../components/pop_up';
+import Modal from '../elements/Modal';
+
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -31,6 +34,8 @@ const Header = ({
 }) => {
 
   const [isActive, setIsactive] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [showFollowModal, setShowFollowModal] = useState(false);
 
   const nav = useRef(null);
   const hamburger = useRef(null);
@@ -46,16 +51,37 @@ const Header = ({
     };
   });  
 
-  const openMenu = () => {
-    document.body.classList.add('off-nav-is-active');
-    nav.current.style.maxHeight = nav.current.scrollHeight + 'px';
-    setIsactive(true);
+  const setmodaltrue = (e) => {
+    e.preventDefault();
+    setShowModal(true);
+    console.log('modal:', showModal);
   }
+
+  const closeModal = (e) => {
+    e.preventDefault();
+    setShowModal(false);
+  }  
+
+  const setFollowmodaltrue = (e) => {
+    e.preventDefault();
+    setShowFollowModal(true);
+    console.log('modal:', showModal);
+  }
+
+  const closeFollowModal = (e) => {
+    e.preventDefault();
+    setShowFollowModal(false);
+  }  
 
   const closeMenu = () => {
     document.body.classList.remove('off-nav-is-active');
     nav.current && (nav.current.style.maxHeight = null);
     setIsactive(false);
+  }
+  const openMenu = () => {
+    document.body.classList.add('off-nav-is-active');
+    nav.current.style.maxHeight = nav.current.scrollHeight + 'px';
+    setIsactive(true);
   }
 
   const keyPress = (e) => {
@@ -75,10 +101,22 @@ const Header = ({
   );
 
   return (
+    <> 
+     <Modal 
+        show={showModal} 
+        handleClose={closeModal} 
+        text = "Icons generated with help from www.icons8.com ? Gitlab help from react.js.com"
+     />
+     <Modal 
+        show={showFollowModal} 
+        handleClose={closeFollowModal} 
+        text="To get latest info and updates on EnKraTo, follow us on all major social media platforms including Instagram, Facebook, Twitter, LinkedIn, TikTok, and Youtube @enkrato."
+     />
     <header
       {...props}
       className={classes}
     >
+     
       <div className="container">
         <div className={
           classNames(
@@ -112,15 +150,13 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link onClick={setmodaltrue}>Attributions</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
+                    <ul className="list-reset header-nav-right">
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={setFollowmodaltrue}>Follow us</Link>
                       </li>
                     </ul>}
                 </div>
@@ -129,6 +165,7 @@ const Header = ({
         </div>
       </div>
     </header>
+  </>
   );
 }
 

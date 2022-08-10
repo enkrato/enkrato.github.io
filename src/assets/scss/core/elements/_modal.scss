@@ -7,6 +7,14 @@
 }
 
 .modal {
+	
+	z-index: 40;
+	position: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+	&.modal-video {
 	display: none;
 	align-items: center;
 	flex-direction: column;
@@ -14,9 +22,6 @@
 	overflow: hidden;
 	position: fixed;
 	z-index: 40;
-
-	&.modal-video {
-
 		.modal-inner {
 			padding: 0;
 			max-width: $modal-video--max-width;
@@ -50,6 +55,8 @@
 			animation: slideUpInModalBg .15s ease-in-out both;
 		}
 	}
+
+	
 }
 
 .modal-inner {
@@ -66,6 +73,7 @@
 
 .modal-content {
 	padding: $modal--inner-padding-v__mobile $modal--inner-padding-h__mobile;
+	
 }
 
 .modal-close {

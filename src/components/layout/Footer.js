@@ -45,7 +45,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by EnKraTo Inc. All right reserved</div>
+            <div className="footer-copyright">Made by EnKraTo, Inc. All right reserved</div>
           </div>
         </div>
       </div>

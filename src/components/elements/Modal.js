@@ -7,6 +7,7 @@ const propTypes = {
   handleClose: PropTypes.func.isRequired,
   show: PropTypes.bool.isRequired,
   closeHidden: PropTypes.bool,
+  text: PropTypes.string,
   video: PropTypes.string,
   videoTag: PropTypes.oneOf(['iframe', 'video'])
 }
@@ -15,6 +16,7 @@ const defaultProps = {
   children: null,
   show: false,
   closeHidden: false,
+  text: '',
   video: '',
   videoTag: 'iframe'
 }
@@ -27,6 +29,7 @@ const Modal = ({
   closeHidden,
   video,
   videoTag,
+  text,
   ...props
 }) => {
 
@@ -66,6 +69,13 @@ const Modal = ({
     className
   );
 
+  function NewlineText(props) {
+    const text = props.text;
+    const newText = text.split('?').map(str => <p>{str}</p>);
+    
+    return newText;
+  }
+
   return (
     <>
       {show &&
@@ -100,7 +110,7 @@ const Modal = ({
                   ></button>
                 }
                 <div className="modal-content">
-                  {children}
+                <NewlineText text={text} />
                 </div>
               </>
             }

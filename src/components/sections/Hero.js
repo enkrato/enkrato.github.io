@@ -26,15 +26,28 @@ const Hero = ({
 }) => {
 
   const [videoModalActive, setVideomodalactive] = useState(false);
+  const [textModalActive, setTextmodalactive] = useState(false);
 
   const openModal = (e) => {
     e.preventDefault();
     setVideomodalactive(true);
+    console.log('modal:', videoModalActive);
   }
 
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
+  }   
+
+  const openTextModal = (e) => {
+    e.preventDefault();
+    setTextmodalactive(true);
+    console.log('modal:', videoModalActive);
+  }
+
+  const closeTextModal = (e) => {
+    e.preventDefault();
+    setTextmodalactive(false);
   }   
 
   const outerClasses = classNames(
@@ -69,11 +82,16 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" onClick={openTextModal}>
                     Download
                     </Button>
                   
                 </ButtonGroup>
+                <Modal
+                  show={textModalActive}
+                  handleClose={closeTextModal}
+                  text="To Download App For Ios Or Android, Go To App Store(Ios Devices) or Google Play Store(Android Devices) And Search 'EnKraTo' In The Search Bar"
+                />
               </div>
             </div>
           </div>

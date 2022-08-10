@@ -45,7 +45,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    paragraph: 'Check out below testimonials from our beta and alpha testers located in the United States'
   };
 
   return (
@@ -62,11 +62,11 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — I have always wanted to regularly ship online stuffs to Ghana but always found it hard because of the scarcity of shipment options. I strongly believe sending items internationally will become much easier for me now.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
+                  <span className="testimonial-item-name text-color-high">Sarpong Boateng</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">EnKraTo</a>
@@ -79,11 +79,11 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Through EnKraTo, I will now be able to send money internationally to my family in Nigeria at a cheaper rate compared to other international payment platforms. My family will also receive money in US dollar bills
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                  <span className="testimonial-item-name text-color-high">Chioma Uche</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">EnKraTo</a>
@@ -96,11 +96,11 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — I like to travel and I frequently travel to Ghana. EnKraTo will provide me the opportunity to make some extra cash by becoming a shipper whenever I have flights scheduled to Ghana.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                  <span className="testimonial-item-name text-color-high">Akosua Mansa</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">EnKraTo</a>
