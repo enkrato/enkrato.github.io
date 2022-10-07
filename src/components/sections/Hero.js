@@ -78,7 +78,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                EnKraTo is a shipment application that aims to take international shipment to a whole new level. Currently installable on android and ios devices.  
+                EnKraTo is a shipment application that aims to take international shipment to a whole new level. Currently available on Android and IOS devices.  
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
