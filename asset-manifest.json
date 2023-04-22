@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c03e239.css",
-    "main.js": "/static/js/main.1aef2a41.js",
+    "main.js": "/static/js/main.32f12f92.js",
     "static/media/video-placeholder.jpg": "/static/media/video-placeholder.ca40af5667c998a65125.jpg",
     "static/media/homepage_1.png": "/static/media/homepage_1.d51a7cc4a4c049d65ce2.png",
     "static/media/shipping_hub_1.png": "/static/media/shipping_hub_1.2c99e03e29488e3760d3.png",
@@ -11,10 +11,10 @@
     "static/media/cta-illustration.svg": "/static/media/cta-illustration.79633e4594ec76a3f01f.svg",
     "index.html": "/index.html",
     "main.9c03e239.css.map": "/static/css/main.9c03e239.css.map",
-    "main.1aef2a41.js.map": "/static/js/main.1aef2a41.js.map"
+    "main.32f12f92.js.map": "/static/js/main.32f12f92.js.map"
   },
   "entrypoints": [
     "static/css/main.9c03e239.css",
-    "static/js/main.1aef2a41.js"
+    "static/js/main.32f12f92.js"
   ]
 }
