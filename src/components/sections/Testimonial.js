@@ -96,7 +96,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — I like to travel and I frequently travel to Ghana. Fakra will provide me the opportunity to make some extra cash by becoming a shipper whenever I have flights scheduled to Ghana.
+                    — I like to travel and I frequently travel to Ghana all year. Fakra will provide me the opportunity to make some extra cash by becoming a shipper whenever I have flights scheduled to Ghana.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
