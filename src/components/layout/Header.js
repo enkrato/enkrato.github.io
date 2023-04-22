@@ -110,7 +110,7 @@ const Header = ({
      <Modal 
         show={showFollowModal} 
         handleClose={closeFollowModal} 
-        text="To get latest info and updates on EnKraTo, follow us on all major social media platforms including Instagram, Facebook, Twitter, LinkedIn, TikTok, and Youtube @enkrato."
+        text="To get latest info and updates on Fakra, follow us on all major social media platforms including Instagram, Facebook, Twitter, LinkedIn, TikTok, and Youtube @enkrato."
      />
     <header
       {...props}

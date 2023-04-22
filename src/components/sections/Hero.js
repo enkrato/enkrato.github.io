@@ -74,11 +74,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-primary">EnKraTo</span> Inc.
+              <span className="text-color-primary">Fakra</span> Inc.
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                EnKraTo is a shipment application that aims to take international shipment to a whole new level. Currently available on Android and IOS devices.  
+              Fakra is a shipment application that aims to take international shipment to a whole new level. Currently available on Android and IOS devices.  
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -90,7 +90,7 @@ const Hero = ({
                 <Modal
                   show={textModalActive}
                   handleClose={closeTextModal}
-                  text="To Download App For Ios Or Android, Go To App Store(Ios Devices) or Google Play Store(Android Devices) And Search 'EnKraTo' In The Search Bar"
+                  text="To Download App For Ios Or Android, Go To App Store(Ios Devices) or Google Play Store(Android Devices) And Search 'Fakra' In The Search Bar"
                 />
               </div>
             </div>

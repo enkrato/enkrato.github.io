@@ -68,7 +68,7 @@ const FooterNav = ({
      <Modal 
         show={showAboutModal} 
         handleClose={closeAboutModal} 
-        text="To get latest info and updates on EnKraTo, follow us on all major social media platforms including Instagram, Facebook, Twitter, LinkedIn, TikTok, and Youtube @enkrato."
+        text="To get latest info and updates on Fakra, follow us on all major social media platforms including Instagram, Facebook, Twitter, LinkedIn, TikTok, and Youtube @enkrato."
      />
       <Modal 
         show={showFAQModal} 
@@ -78,7 +78,7 @@ const FooterNav = ({
      <Modal 
         show={showSupportModal} 
         handleClose={closeSupportModal} 
-        text="To get latest info and updates on EnKraTo, follow us on all major social media platforms including Instagram, Facebook, Twitter, LinkedIn, TikTok, and Youtube @enkrato."
+        text="To get latest info and updates on Fakra, follow us on all major social media platforms including Instagram, Facebook, Twitter, LinkedIn, TikTok, and Youtube @enkrato."
      />
     <nav
       {...props}

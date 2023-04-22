@@ -69,7 +69,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Sarpong Boateng</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">EnKraTo</a>
+                    <a href="#0">Fakra</a>
                   </span>
                 </div>
               </div>
@@ -79,14 +79,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Through EnKraTo, I will now be able to send money internationally to my family in Nigeria at a cheaper rate compared to other international payment platforms. My family will also receive money in US dollar bills
+                    — Through Fakra, I will now be able to send money internationally to my family in Nigeria at a cheaper rate compared to other international payment platforms. My family will also receive money in US dollar bills
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Chioma Uche</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">EnKraTo</a>
+                    <a href="#0">Fakra</a>
                   </span>
                 </div>
               </div>
@@ -96,14 +96,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — I like to travel and I frequently travel to Ghana. EnKraTo will provide me the opportunity to make some extra cash by becoming a shipper whenever I have flights scheduled to Ghana.
+                    — I like to travel and I frequently travel to Ghana. Fakra will provide me the opportunity to make some extra cash by becoming a shipper whenever I have flights scheduled to Ghana.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Akosua Mansa</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">EnKraTo</a>
+                    <a href="#0">Fakra</a>
                   </span>
                 </div>
               </div>

@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Check out exceptional features below',
-    paragraph: 'EnKraTo comes with numerous features that have been specifically designed to provide awesome user experience.'
+    paragraph: 'Fakra comes with numerous features that have been specifically designed to provide awesome user experience.'
   };
 
   return (
@@ -132,7 +132,7 @@ const FeaturesTiles = ({
                     Notification Icon
                     </h4>
                   <p className="m-0 text-sm">
-                    Choose to view all notifications that are received from other EnKraTo users. From messages to shipment requests notifications.
+                    Choose to view all notifications that are received from other Fakra users. From messages to shipment requests notifications.
                     </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ const FeaturesTiles = ({
                     Message Icon
                     </h4>
                   <p className="m-0 text-sm">
-                    Choose to view and search all ongoing chats with other EnKraTo users you have done business with before.
+                    Choose to view and search all ongoing chats with other Fakra users you have done business with before.
                     </p>
                 </div>
               </div>
