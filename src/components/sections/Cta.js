@@ -52,7 +52,7 @@ const Cta = ({
           className={innerClasses}
         >
           <div className="cta-slogan">
-            <p style="font-size: 14px; line-height: 140%;"><strong>Questions? </strong>Contact us anytime at <strong>enkrato@gmail.com</strong></p>
+          <p style="font-size: 14px; line-height: 140%;"><strong>Questions? </strong>Contact us anytime at <strong>enkrato@gmail.com</strong></p>
           </div>
           <div className="cta-action">
             <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your best email">
